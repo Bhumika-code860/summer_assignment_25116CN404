@@ -7,6 +7,7 @@ int main()
     scanf("%d",&a);
     printf("enter the ending number of range:");
     scanf("%d",&b);
+    printf("prime numbers are:\n");
     for(i=a;i<=b;i++)
     {
       flag=0;
@@ -19,6 +20,6 @@ int main()
     }
     }
       if(flag==0)
-      printf("%d",i);
+      printf("%d\n",i);
     }
 }
