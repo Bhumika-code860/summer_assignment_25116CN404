@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {int n,r,ans=0,contri=1;
-printf("enter the decimal number");
+printf("enter the decimal number:");
 scanf("%d",&n);
 while(n>0)
 {
@@ -14,6 +14,6 @@ while(n>0)
  n=n/2;
  contri=contri*10;
 }
-printf("%d",ans);
+printf("binary form of number is %d",ans);
 return 0;
 }
