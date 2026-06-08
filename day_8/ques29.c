@@ -1,3 +1,4 @@
+//WAP TO PRINT HALF PYRAMID PATTERN
 #include<stdio.h>
 int main()
 {
