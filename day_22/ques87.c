@@ -5,7 +5,7 @@ int main()
 {
     int i,j,count=0;
     char s[50];
-    printf("enter a sentence:");
+    printf("enter a string:");
     gets(s);
     for(i=0;s[i]!='\0';i++)
     {
