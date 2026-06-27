@@ -26,8 +26,8 @@ int main()
     {
         printf("\nStudent %d",i+1);
         printf("\nRoll no:%d",s[i].rollno);
-        printf("\nName:",s[i].name);
-        printf("\nMarks",s[i].marks);
+        printf("\nName:%s",s[i].name);
+        printf("\nMarks:%f",s[i].marks);
     }
     return 0;
 }
