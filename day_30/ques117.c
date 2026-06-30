@@ -1,4 +1,4 @@
-//WAP TO CREATE STUDENT RECORD SYSTEMSS USING ARRAYS AND STRINGS
+//WAP TO CREATE STUDENT RECORD SYSTEMS USING ARRAYS AND STRINGS
 #include<stdio.h>
 #include<string.h>
 struct student
@@ -26,9 +26,9 @@ int main()
     printf("\n-----STUDENT RECORDS----\n");
     for(i=0;i<n;i++)
     {
-        printf("ROLL NO:%d",s[i].roll);
-        printf("NAME:%s",s[i].name);
-        printf("MARKS:%f",&s[i].marks);
+        printf("\nROLL NO:%d",s[i].roll);
+        printf("\nNAME:%s",s[i].name);
+        printf("\nMARKS:%f",s[i].marks);
     }
     return 0;  
 }
